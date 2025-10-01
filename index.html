@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- FontAwesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">CyperDev</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Full-Stack Developer</h1>
+                <p>Building digital experiences that merge creativity and technology.</p>
+                <p class="highlight">Specializing in modern web development and UI/UX design.</p>
+                <a href="#contact" class="cta-button">Let's Connect</a>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpeg" alt="Portrait of CyperDev, Full-Stack Developer" class="profile-img">
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>Technical Expertise</h2>
+            <div class="skill-grid">
+                <article class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript</p>
+                </article>
+                <article class="skill-card">
+                    <i class="fa-solid fa-server"></i>
+                    <h3>Backend Development</h3>
+                    <p>Java, MySQL</p>
+                </article>
+                <article class="skill-card">
+                    <i class="fa-solid fa-paintbrush"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Prototyping, User Testing</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 CyperDev. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://github.com/Aniket0717" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
